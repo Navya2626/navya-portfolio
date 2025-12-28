@@ -151,76 +151,98 @@ export default function Contact() {
           </div>
 
           {/* RIGHT: Connect With Me */}
-          <div className="flex flex-col">
-            <h3 className="text-xl font-semibold text-gray-900 dark:text-gray-100 mb-6">
-              Connect With Me
-            </h3>
+         {/* RIGHT: Connect With Me */}
+<div className="flex flex-col">
+  <h3 className="text-xl font-semibold text-gray-900 dark:text-gray-100 mb-6">
+    Connect With Me
+  </h3>
 
-            <div className="grid grid-cols-1 gap-5 flex-1">
-              {/* Email */}
-              <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6 flex gap-4">
-                <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-purple-100 dark:bg-purple-900/40">
-                  <EnvelopeIcon className="h-6 w-6 text-purple-600" />
-                </div>
-                <div>
-                  <p className="font-semibold text-gray-900 dark:text-gray-100">
-                    Email
-                  </p>
-                  <p className="text-gray-600 dark:text-gray-400">
-                    navya.mk@email.com
-                  </p>
-                </div>
-              </div>
+  <div className="grid grid-cols-1 gap-5 flex-1">
 
-              {/* Phone */}
-              <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6 flex gap-4">
-                <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-purple-100 dark:bg-purple-900/40">
-                  <PhoneIcon className="h-6 w-6 text-purple-600" />
-                </div>
-                <div>
-                  <p className="font-semibold text-gray-900 dark:text-gray-100">
-                    Phone / WhatsApp
-                  </p>
-                  <p className="text-gray-600 dark:text-gray-400">
-                    +91 9XXXXXXXXX
-                  </p>
-                </div>
-              </div>
+    {/* Email */}
+    <a
+      href="mailto:navyakavya16@gmail.com"
+      className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6 flex gap-4
+                 hover:shadow-xl transition"
+    >
+      <div className="flex h-12 w-12 items-center justify-center rounded-lg
+                      bg-purple-100 dark:bg-purple-900/40">
+        <EnvelopeIcon className="h-6 w-6 text-purple-600" />
+      </div>
+      <div>
+        <p className="font-semibold text-gray-900 dark:text-gray-100">
+          Email
+        </p>
+        <p className="text-gray-600 dark:text-gray-400">
+          navyakavya16@gmail.com
+        </p>
+      </div>
+    </a>
 
-              {/* LinkedIn */}
-              <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6 flex gap-4">
-                <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-purple-100 dark:bg-purple-900/40">
-                  <LinkIcon className="h-6 w-6 text-purple-600" />
-                </div>
-                <div>
-                  <p className="font-semibold text-gray-900 dark:text-gray-100">
-                    LinkedIn
-                  </p>
-                  <p className="text-gray-600 dark:text-gray-400">
-                    linkedin.com/in/navya-m-k
-                  </p>
-                </div>
-              </div>
+    {/* Phone / WhatsApp */}
+    <a
+      href="tel:+919XXXXXXXXX"
+      className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6 flex gap-4
+                 hover:shadow-xl transition"
+    >
+      <div className="flex h-12 w-12 items-center justify-center rounded-lg
+                      bg-purple-100 dark:bg-purple-900/40">
+        <PhoneIcon className="h-6 w-6 text-purple-600" />
+      </div>
+      <div>
+        <p className="font-semibold text-gray-900 dark:text-gray-100">
+          Phone / WhatsApp
+        </p>
+        <p className="text-gray-600 dark:text-gray-400">
+          +91 9XXXXXXXXX
+        </p>
+      </div>
+    </a>
 
-              {/* Location */}
-              <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6 flex gap-4">
-                <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-purple-100 dark:bg-purple-900/40">
-                  <MapPinIcon className="h-6 w-6 text-purple-600" />
-                </div>
-                <div>
-                  <p className="font-semibold text-gray-900 dark:text-gray-100">
-                    Location
-                  </p>
-                  <p className="text-gray-600 dark:text-gray-400">
-                    Based in India 🇮🇳
-                  </p>
-                  <p className="text-gray-600 dark:text-gray-400 text-sm">
-                    Open to remote / hybrid opportunities
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
+    {/* LinkedIn */}
+    <a
+      href="https://www.linkedin.com/in/navya-m-k-ab2306204/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6 flex gap-4
+                 hover:shadow-xl transition"
+    >
+      <div className="flex h-12 w-12 items-center justify-center rounded-lg
+                      bg-purple-100 dark:bg-purple-900/40">
+        <LinkIcon className="h-6 w-6 text-purple-600" />
+      </div>
+      <div>
+        <p className="font-semibold text-gray-900 dark:text-gray-100">
+          LinkedIn
+        </p>
+        <p className="text-gray-600 dark:text-gray-400">
+          linkedin.com/in/navya-m-k
+        </p>
+      </div>
+    </a>
+
+    {/* Location */}
+    <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6 flex gap-4">
+      <div className="flex h-12 w-12 items-center justify-center rounded-lg
+                      bg-purple-100 dark:bg-purple-900/40">
+        <MapPinIcon className="h-6 w-6 text-purple-600" />
+      </div>
+      <div>
+        <p className="font-semibold text-gray-900 dark:text-gray-100">
+          Location
+        </p>
+        <p className="text-gray-600 dark:text-gray-400">
+          Bangalore, India 🇮🇳
+        </p>
+        <p className="text-gray-600 dark:text-gray-400 text-sm">
+          Open to remote / hybrid opportunities
+        </p>
+      </div>
+    </div>
+
+  </div>
+</div>
+
         </div>
       </div>
 

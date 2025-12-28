@@ -46,7 +46,7 @@ export default function Home() {
 
             <a
               href="#contact"
-              className="rounded-md border px-6 py-3 font-semibold text-gray-700 dark:text-gray-300 dark:border-gray-600 hover:bg-purple-100 dark:hover:bg-gray-800 transition"
+                className="inline-flex items-center gap-2 rounded-md border border-purple-600 px-6 py-3 font-semibold text-purple-600 hover:bg-purple-100 dark:hover:bg-gray-800 transition"
             >
               Contact Me
             </a>
