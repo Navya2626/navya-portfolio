@@ -34,9 +34,9 @@ export default function About() {
 
               <p className="mt-4 text-gray-600 dark:text-gray-400 leading-relaxed">
                 Proven impact in optimizing frontend performance by{" "}
-                <span className="font-semibold">30%</span> and improving user
+                <span className="font-semibold">80%</span> and improving user
                 interaction efficiency by{" "}
-                <span className="font-semibold">25%</span>, with hands-on
+                <span className="font-semibold">85%</span>, with hands-on
                 experience in dashboards, real-time visualizations, and UI/UX
                 design.
               </p>
@@ -78,7 +78,7 @@ export default function About() {
             </div>
 
             <div className="rounded-xl bg-white dark:bg-gray-800 shadow-lg hover:shadow-xl transition-shadow duration-300 p-6 border border-gray-100 dark:border-gray-700">
-              <h3 className="text-3xl font-bold text-purple-600">30%</h3>
+              <h3 className="text-3xl font-bold text-purple-600">80%</h3>
               <p className="mt-2 text-gray-700 dark:text-gray-300">
                 Performance Optimization
               </p>

@@ -5,7 +5,7 @@ const experiences = [
     location: "Bangalore, KA, IN",
     period: "Aug 2025 – Present",
     points: [
-      "Developing and maintaining the Spry project using ReactJS, TypeScript, Ant Design, Redux, and Redux-Saga.",
+      "Built and maintained a React(Vite)-based migration dashboard for submitting, tracking, and monitoring AI-driven code migration jobs with real-time logs and workflow visibility.",
       "Actively involved in Agile sprint planning, feature design, estimation, and timely delivery.",
       "Focused on performance optimization and UI responsiveness to improve overall user experience.",
     ],
