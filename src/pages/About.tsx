@@ -20,7 +20,7 @@ export default function About() {
             <div>
               <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
                 Frontend Developer with over{" "}
-                <span className="font-semibold">3 years of experience</span>,
+                <span className="font-semibold">4 years of experience</span>,
                 specializing in building modern, scalable, and user-focused web
                 applications using{" "}
                 <span className="font-semibold">ReactJS</span>.
@@ -57,14 +57,14 @@ export default function About() {
           {/* RIGHT: Stats / Highlights */}
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
             <div className="rounded-xl bg-white dark:bg-gray-800 shadow-lg hover:shadow-xl transition-shadow duration-300 p-6 border border-gray-100 dark:border-gray-700">
-              <h3 className="text-3xl font-bold text-purple-600">3+</h3>
+              <h3 className="text-3xl font-bold text-purple-600">4+</h3>
               <p className="mt-2 text-gray-700 dark:text-gray-300">
                 Years of Experience
               </p>
             </div>
 
             <div className="rounded-xl bg-white dark:bg-gray-800 shadow-lg hover:shadow-xl transition-shadow duration-300 p-6 border border-gray-100 dark:border-gray-700">
-              <h3 className="text-3xl font-bold text-purple-600">6+</h3>
+              <h3 className="text-3xl font-bold text-purple-600">10+</h3>
               <p className="mt-2 text-gray-700 dark:text-gray-300">
                 Projects Delivered
               </p>
